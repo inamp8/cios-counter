@@ -7,7 +7,7 @@ from fractions import Fraction
 
 def main(argv):
     if len(argv) != 1:
-        print('usage: ./dehtmlify.py "Spring 2022 CS 6290 Lecture A #21973202202"')
+        print('usage: ./dehtmlify.py "Summer 2024 CS 1332 Lecture A"')
         return 1
 
     title_wanted = argv[0]
