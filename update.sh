@@ -16,7 +16,7 @@ sem=$1
 
 while true; do
     {
-        printf -- '             CS 2110 CIOS Progress\n'
+        printf -- '             CS 1332 CIOS Progress\n'
         printf -- '             =====================\n'
         printf -- '\n'
         . curl.sh | ./dehtmlify.py "$sem" | figlet -c -w 50
